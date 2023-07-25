@@ -20,6 +20,158 @@
     </style>
 </head>
 <body>
-    
+     <header class="mx-auto lg:mb-44">
+          <!-- Navigation Section -->
+          <nav class="lg:bg-[#F85559] rounded-full lg:py-9 lg:px-12 lg:mx-52 lg:my-12 flex flex-col lg:flex-row items-center justify-between">
+            <!-- Nav Menu -->
+            <div class="text-sm breadcrumbs">
+                <ul class="lg:text-[#FFF]">
+                  <li><a>Home</a></li> 
+                  <li><a>About Us</a></li> 
+                  <li><a>Shop</a></li> 
+                  <li><a>All Fruits</a></li>  
+                </ul>
+            </div>
+            <!-- Nav Logo -->
+            <div class="flex items-center justify-center gap-3 mb-3">
+                <div><img src="./images/logo.png" alt=""></div>
+                <h3 class="lg:text-[#FFF] text-[black] text-4xl font-bold">Fruit Burst</h3>
+            </div>
+            <!-- Search -->
+            <div class="relative">
+                <input type="text" placeholder="Search here" class="input input-bordered pr-16" /> 
+                <img class="absolute top-3.5 left-56 rounded-l-none" src="./icons/search.svg" alt="">
+            </div>
+          </nav>
+          <!-- Banner Section -->
+          <div class="carousel w-fit lg:mx-52 mt-3">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="./images/banner1.png" class="w-full" />
+              <div class="absolute text-center pl-3 -mt-1 lg:right-1/3 lg:bottom-56">
+                <h1 class="text-[#cbd5e1] text-2xl lg:text-6xl font-bold lg:mb-5">Exotic tastes at your<br>doorstep</h1>
+                <p class="text-[#cbd5e1] lg:text-lg font-normal lg:mb-7">We supply highly quality organic products</p>
+                <button class="btn btn-error text-[#cbd5e1]">Shop Now</button>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle h-3 w-3">❮</a> 
+                <a href="#slide2" class="btn btn-circle h-3 w-3">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="./images/banner2.png" class="w-full" />
+              <div class="absolute text-center pl-3 -mt-1 lg:right-1/3 lg:bottom-56">
+                <h1 class="text-[#cbd5e1] text-2xl lg:text-6xl font-bold lg:mb-5">Exotic tastes at your<br>doorstep</h1>
+                <p class="text-[#cbd5e1] lg:text-lg font-normal lg:mb-7">We supply highly quality organic products</p>
+                <button class="btn btn-error text-[#cbd5e1]">Shop Now</button>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle h-3 w-3">❮</a> 
+                <a href="#slide3" class="btn btn-circle h-3 w-3">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="./images/banner3.png" class="w-full" />
+              <div class="absolute text-center pl-3 -mt-1 lg:right-1/3 lg:bottom-56">
+                <h1 class="text-[#cbd5e1] text-2xl lg:text-6xl font-bold lg:mb-5">Exotic tastes at your<br>doorstep</h1>
+                <p class="text-[#cbd5e1] lg:text-lg font-normal lg:mb-7">We supply highly quality organic products</p>
+                <button class="btn btn-error text-[#cbd5e1]">Shop Now</button>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle h-3 w-3">❮</a> 
+                <a href="#slide4" class="btn btn-circle h-3 w-3">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full">
+              <img src="./images/banner4.png" class="w-full" />
+              <div class="absolute text-center pl-3 -mt-1 lg:right-1/3 lg:bottom-56">
+                <h1 class="text-[#cbd5e1] text-2xl lg:text-6xl font-bold lg:mb-5">Exotic tastes at your<br>doorstep</h1>
+                <p class="text-[#cbd5e1] lg:text-lg font-normal lg:mb-7">We supply highly quality organic products</p>
+                <button class="btn btn-error text-[#cbd5e1]">Shop Now</button>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle h-3 w-3">❮</a> 
+                <a href="#slide1" class="btn btn-circle h-3 w-3">❯</a>
+              </div>
+            </div>
+          </div>
+          <!-- Fruits List Section -->
+          <div class="hidden lg:contents relative flex items-center justify-center mx-52">
+            <div class="absolute lg:left-96 lg:bottom-5 flex items-center justify-center gap-24 bg-[#FFF] py-5 px-4">
+                <!-- 1st -->
+              <div class="text-center w-36">
+                <img class="flex justify-center items-center" src="./images/fruit1.png" alt="">
+                <p class="text-xl font-normal">Strawberry</p>
+              </div>
+             <!-- 2nd -->
+              <div class="text-center w-36">
+                <img class="flex justify-center items-center" src="./images/fruit2.png" alt="">
+                <p class="text-xl font-normal">Orange</p>
+              </div>
+             <!-- 3rd -->
+              <div class="text-center w-36">
+                <img class="flex justify-center items-center" src="./images/fruit3.png" alt="">
+                <p class="text-xl font-normal">Mango</p>
+              </div>
+             <!-- 4th -->
+              <div class="text-center w-36">
+                <img class="flex justify-center items-center" src="./images/fruit4.png" alt="">
+                <p class="text-xl font-normal">Strawberry</p>
+              </div>
+             <!-- 5th -->
+              <div class="text-center w-36">
+                <img class="flex justify-center items-center" src="./images/fruit5.png" alt="">
+                <p class="text-xl font-normal">Mango</p>
+              </div>
+            </div>
+          </div> 
+     </header>
+     <main>
+          <!-- Deal Section -->
+          <section class="lg:mx-52 mt-5 my-20">
+              <div class="flex flex-col lg:flex-row items-center justify-between">
+                  <div class="text-center lg:text-left mb-6">
+                    <h2 class="text-center lg:text-left text-2xl lg:text-4xl font-bold">Deal of the day</h2>
+                    <p class="font-normal text-[#121212] mt-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical<br>Latin literature from 45 BC, making it over 2000 years old.</p>
+                  </div>
+                  <div>
+                  <div class="flex gap-5">
+                        <div>
+                          <span class="countdown text-4xl">
+                            <span style="--value:29;"></span>:
+                          </span>
+                          <p>days</p>
+                        </div> 
+                        <div>
+                          <span class="countdown text-4xl">
+                            <span style="--value:15;"></span>:
+                          </span>
+                          <p>hours</p>
+                        </div> 
+                        <div>
+                          <span class="countdown text-4xl">
+                            <span style="--value:25;"></span>:
+                          </span>
+                          <p>min</p>
+                        </div> 
+                        <div>
+                          <span class="countdown text-4xl">
+                            <span style="--value:08;"></span>:
+                          </span>
+                          <p>sec</p>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- Cards -->
+              <section>
+                <div>
+                    
+                </div>
+              </section>
+          </section>
+     </main>
+     <footer>
+
+     </footer>
 </body>
 </html>
