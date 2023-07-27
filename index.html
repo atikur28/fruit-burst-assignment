@@ -25,9 +25,9 @@
 <body>
      <header class="mx-auto lg:mb-44">
           <!-- Navigation Section -->
-          <nav class="lg:bg-[#F85559] rounded-full lg:py-9 lg:px-12 lg:mx-52 lg:my-12 flex flex-col lg:flex-row items-center justify-between">
+          <nav class="lg:bg-[#F85559] lg:rounded-full lg:py-9 lg:px-12 lg:mx-52 lg:my-12 lg:flex items-center justify-between">
             <!-- Nav Menu -->
-            <div class="text-sm breadcrumbs">
+            <div class="text-sm breadcrumbs hidden lg:contents">
                 <ul class="lg:text-[#FFF]">
                   <li><a>Home</a></li> 
                   <li><a>About Us</a></li> 
@@ -35,11 +35,29 @@
                   <li><a>All Fruits</a></li>  
                 </ul>
             </div>
-            <!-- Nav Logo -->
-            <div class="flex items-center justify-center gap-3 mb-3">
+              <!-- Nav Logo -->
+              <div class="flex items-center justify-center gap-3 mt-2">
                 <div><img src="./images/logo.png" alt=""></div>
-                <h3 class="lg:text-[#FFF] text-[black] text-4xl font-bold">Fruit Burst</h3>
-            </div>
+                <h3 class="lg:text-[#FFF] text-[black] lg:text-4xl text-xl font-bold">Fruit Burst</h3>
+              </div>
+              <!-- Nav Bar -->
+              <div class="lg:hidden">
+                <div class="navbar bg-base-100">
+                  <div class="navbar-start">
+                    <div class="dropdown">
+                      <label tabindex="0" class="btn btn-ghost btn-circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                      </label>
+                      <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             <!-- Search -->
             <div class="relative hidden lg:contents">
                 <input type="text" placeholder="Search here" class="input input-bordered pr-16" /> 
